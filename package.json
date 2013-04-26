@@ -1,0 +1,14 @@
+{
+  	"name": "Territories",
+	"author": "Soner Altin",
+	"description": "Game",
+  	"version": "0.0.1",
+  	"dependencies": {
+    	        "express": "2.5.x",
+		"now": "0.8.x",
+		"mailer": "0.6.x"
+  },
+  "engines": {
+        "node": "0.6.18"
+    }
+}
