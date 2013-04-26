@@ -1,0 +1,8 @@
+body {
+	overflow: hidden;
+}
+
+canvas {
+	display: block;
+	background: url('../bg.png') no-repeat fixed 0 0;
+}

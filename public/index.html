@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>test game</title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/game.css">
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<script src="http://code.createjs.com/easeljs-0.6.0.min.js"></script>
+	</head>
+	
+	<body>
+		<canvas id="gameCanvas"></canvas>
+		<p>Mouse  posX: <span id="posX"></span></p>
+		<p>Mouse  posY: <span id="posY"></span></p>
+		<p>Player posX: <span id="posXP"></span></p>
+		<p>Player posY: <span id="posYP"></span></p>
+		<p>state: <span id="state"></span></p>
+		
+		<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+		
+		<script src="js/requestAnimationFrame.js"></script>
+		<script src="js/Keys.js"></script>
+		<script src="js/Player.js"></script>
+		<script src="js/Attacker.js"></script>
+		<script src="js/house.js"></script>
+		<script src="js/emptyHouse.js"></script>
+		<script src="js/game.js"></script>
+		<script>
+			// Initialise the game
+			init();
+			animate();
+		</script>
+	</body>
+</html>
